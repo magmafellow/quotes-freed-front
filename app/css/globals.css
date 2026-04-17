@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans-body: var(--font-inter);
+  --font-sans-caption: var(--font-open-sans);
+}
+
+:root {
+}
+
+.dark {
+}
+
+@layer base {
+  * {
+  }
+  body {
+  }
+  html {
+  }
+}
+button {
+  font-family: var(--font-inter);
+}
+
+.header-top-padding {
+  padding-top: 112px;
+}
+@media (width >= 768px) {
+  .header-top-padding {
+    padding-top: 128px;
+  }
+}
+
+@media (width >= 1024px) {
+  .header-top-padding {
+    padding-top: 144px;
+  }
+}

@@ -1,0 +1,207 @@
+@import 'tailwindcss';
+
+/* Body [START] */
+@utility typo-body-xs {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-sm {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-md {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-lg {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-xl {
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+
+@utility typo-body-xs-bold {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-sm-bold {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-md-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-lg-bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-xl-bold {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+
+@utility typo-body-xs {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-sm {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-md {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-lg {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+@utility typo-body-xl {
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: var(--font-inter);
+}
+
+@utility typo-caption-xs {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--font-open-sans);
+}
+@utility typo-caption-sm {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--font-open-sans);
+}
+@utility typo-caption-md {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-open-sans);
+}
+@utility typo-caption-lg {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: var(--font-open-sans);
+}
+
+/* Body [FINISH] */
+
+/* Headings [START] */
+@utility typo-h1-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 48px;
+}
+@utility typo-h2-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 36px;
+}
+@utility typo-h3-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 30px;
+}
+@utility typo-h4-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 24px;
+}
+@utility typo-h5-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 20px;
+}
+@utility typo-h6-desktop {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 18px;
+}
+
+@utility typo-h1-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 36px;
+}
+@utility typo-h2-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 30px;
+}
+@utility typo-h3-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 24px;
+}
+@utility typo-h4-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 20px;
+}
+@utility typo-h5-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 18px;
+}
+@utility typo-h6-tablet {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 16px;
+}
+
+@utility typo-h1-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 30px;
+}
+@utility typo-h2-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 24px;
+}
+@utility typo-h3-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 20px;
+}
+@utility typo-h4-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 18px;
+}
+@utility typo-h5-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 16px;
+}
+@utility typo-h6-mobile {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 14px;
+}
+/* Headings [FINISH] */
