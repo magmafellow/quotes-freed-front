@@ -9,13 +9,13 @@ type THeaderProps = {} & React.ComponentProps<'header'>
 
 function Header({ className, children, ...props }: THeaderProps) {
   return (
-    <header className={cn('fixed left-0 top-0 w-full', className)} {...props}>
-      <DefaultContainer className="shadow-md-half rounded-b-[32px]">
+    <header className={cn('fixed left-0 top-0 w-full z-100', className)} {...props}>
+      <DefaultContainer className="shadow-md-half bg-grey-0 rounded-b-[32px]">
         <div className="h-20 md:h-24 flex items-center justify-between">
           <div className="_logotype-box flex items-center gap-4">
             <a href="#" className="shrink-0">
               <img
-                className="size-16"
+                className="size-14"
                 src="/assets/images/logotypes/logotype-neutral-rounded-md.svg"
                 alt="logotype (Quotes Freed)"
               />

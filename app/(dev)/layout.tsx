@@ -40,7 +40,7 @@ export default function RootLayout({
         inter.variable
       )}
     >
-      <body className="min-h-screen flex flex-col">
+      <body className="min-h-screen flex flex-col header-top-padding">
         <Header />
         <main className="grow">{children}</main>
         <Footer />

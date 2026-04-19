@@ -70,6 +70,9 @@
   --color-danger-700: var(--danger-700);
   --color-danger-800: var(--danger-800);
   --color-danger-900: var(--danger-900);
+
+  --color-border: var(--grey-300);
+  --color-border-hard: var(--grey-400);
 }
 
 :root {
